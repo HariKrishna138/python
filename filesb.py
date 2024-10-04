@@ -1,0 +1,5 @@
+h=open("xyz.bin","wb")
+h.write(b'\x00\x01\x02\x03\x04')
+h=open("xyz.bin","rb")
+print(h.read())
+h.close()
